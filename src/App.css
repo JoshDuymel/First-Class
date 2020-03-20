@@ -1,10 +1,76 @@
 .App {
   text-align: center;
+  background-color: #F2F2F2;
+  font: helvetica;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  font: helvetica;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0vw;
+  color: #999999;
+}
+
+.logo {
+  height: 100%;
+}
+
+.leNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 10%;
+  margin: 0px;
+  padding: 2vw;
+  background-color: #505050;
+  color: white;
+}
+
+.cardCont{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 98vw;
+  padding: 1vw;
+}
+
+.contactCard {
+  display: grid;
+  width: auto;
+  padding: 3vw;
+  margin: 1vw;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.profilePic {
+  width: 100%;
+  clip-path: circle(36% at center);
+  padding: 0vw;
+}
+
+.contactButtonsCont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1vw;
+  margin-top: 2vw;
+}
+
+.contactButton {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border: 2px solid #999999;
+  border-radius: 4px;
+  color: #999999;
+  align-items: center;
+  font-size: 1.4vw;
+}
+
+.icon {
+  width: 80%;
+  padding: 1vw;
 }
 
 @media (prefers-reduced-motion: no-preference) {
